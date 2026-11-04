@@ -1,0 +1,37 @@
+/* hinnakiri */
+.hinnakiri {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.hinnakiri h3 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.hinnakiri table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.hinnakiri th,
+.hinnakiri td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #e0d0c8;
+}
+
+.hinnakiri th {
+  background: #f0e0d8;
+}
+
+.hinnakiri td:last-child,
+.hinnakiri th:last-child {
+  text-align: right;
+}
+
+.hinnakiri tr:hover td {
+  background: #fdf6f2;
+}
